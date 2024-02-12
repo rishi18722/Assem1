@@ -1,0 +1,5 @@
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:37 (foreach):
+  Flow control statements are not properly nested.
+
+[0m

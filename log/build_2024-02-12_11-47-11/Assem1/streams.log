@@ -1,0 +1,46 @@
+[0.072s] Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake /home/reeshav/Assem1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/reeshav/Assem1/install/Assem1
+[0.305s] -- The C compiler identification is GNU 11.4.0
+[0.448s] -- The CXX compiler identification is GNU 11.4.0
+[0.465s] -- Detecting C compiler ABI info
+[0.575s] -- Detecting C compiler ABI info - done
+[0.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.585s] -- Detecting C compile features - done
+[0.589s] -- Detecting CXX compiler ABI info
+[0.680s] -- Detecting CXX compiler ABI info - done
+[0.686s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.686s] -- Detecting CXX compile features
+[0.686s] -- Detecting CXX compile features - done
+[0.702s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.867s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.003s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.045s] WARNING: Package name "Assem1" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.083s] -- Configuring done
+[1.096s] -- Generating done
+[1.096s] -- Build files have been written to: /home/reeshav/Assem1/build/Assem1
+[1.101s] Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake /home/reeshav/Assem1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/reeshav/Assem1/install/Assem1
+[1.103s] Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+[1.138s] Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+[1.223s] Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1
+[1.230s] -- Install configuration: ""
+[1.230s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/ament_index/resource_index/package_run_dependencies/Assem1
+[1.230s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/ament_index/resource_index/parent_prefix_path/Assem1
+[1.231s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/ament_prefix_path.sh
+[1.231s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/ament_prefix_path.dsv
+[1.231s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/path.sh
+[1.231s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/path.dsv
+[1.231s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.bash
+[1.231s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.sh
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.zsh
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.dsv
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/package.dsv
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/ament_index/resource_index/packages/Assem1
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/cmake/Assem1Config.cmake
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/cmake/Assem1Config-version.cmake
+[1.232s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/package.xml
+[1.233s] [31mCMake Error at cmake_install.cmake:105 (file):
+[1.233s]   file INSTALL cannot find "/home/reeshav/Assem1/dir": No such file or
+[1.233s]   directory.
+[1.233s] 
+[1.233s] [0m
+[1.235s] Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '1': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1

@@ -1,0 +1,7 @@
+[0.053s] Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake /home/reeshav/Assem1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/reeshav/Assem1/install/Assem1
+[0.060s] [31mCMake Error at CMakeLists.txt:37 (foreach):
+[0.060s]   Flow control statements are not properly nested.
+[0.060s] 
+[0.060s] [0m
+[0.060s] -- Configuring incomplete, errors occurred!
+[0.062s] Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '1': /usr/bin/cmake /home/reeshav/Assem1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/reeshav/Assem1/install/Assem1

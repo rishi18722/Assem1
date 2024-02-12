@@ -1,0 +1,39 @@
+[0.035s] Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+[0.084s] Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+[0.209s] Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1
+[0.215s] -- Install configuration: ""
+[0.215s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/dir
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/config
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/config/joint_names_Assem1.yaml
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/launch
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/launch/gazebo.launch
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/launch/display.launch
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link7.STL
+[0.216s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link1.STL
+[0.217s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link6.STL
+[0.217s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link8.STL
+[0.217s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/base_link.STL
+[0.217s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link3.STL
+[0.217s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link2.STL
+[0.217s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link4.STL
+[0.218s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/meshes/link5.STL
+[0.220s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/urdf
+[0.220s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/urdf/Assem1.urdf
+[0.220s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/urdf/Assem1.csv
+[0.220s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/ament_index/resource_index/package_run_dependencies/Assem1
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/ament_index/resource_index/parent_prefix_path/Assem1
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/ament_prefix_path.sh
+[0.221s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/path.sh
+[0.221s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/environment/path.dsv
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.bash
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.sh
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.zsh
+[0.221s] -- Installing: /home/reeshav/Assem1/install/Assem1/share/Assem1/local_setup.dsv
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/package.dsv
+[0.221s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/ament_index/resource_index/packages/Assem1
+[0.222s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/cmake/Assem1Config.cmake
+[0.222s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/cmake/Assem1Config-version.cmake
+[0.222s] -- Up-to-date: /home/reeshav/Assem1/install/Assem1/share/Assem1/package.xml
+[0.224s] Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1

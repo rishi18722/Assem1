@@ -1,0 +1,98 @@
+[0.509s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.509s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f225b2af160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f225b2ad180>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f225b2ad180>>)
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.535s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/reeshav/Assem1'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.544s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.catkin' and name 'Assem1'
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.611s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'cmake_target' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'cmake_clean_first' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'cmake_force_configure' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'ament_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'Assem1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] DEBUG:colcon.colcon_core.verb:Building package 'Assem1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/reeshav/Assem1/build/Assem1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/reeshav/Assem1/install/Assem1', 'merge_install': False, 'path': '/home/reeshav/Assem1', 'symlink_install': False, 'test_result_base': None}
+[0.668s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.675s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/reeshav/Assem1' with build type 'catkin'
+[0.675s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/reeshav/Assem1'
+[0.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake /home/reeshav/Assem1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/reeshav/Assem1/install/Assem1
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake /home/reeshav/Assem1 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/reeshav/Assem1/install/Assem1
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+[1.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1
+[1.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '1': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1
+[1.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('Assem1', 'ros_package_path')
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/ros_package_path.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/ros_package_path.dsv'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/ros_package_path.sh'
+[1.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('Assem1', 'pkg_config_path')
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/pkg_config_path.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/pkg_config_path.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/pkg_config_path.sh'
+[1.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('Assem1', 'pkg_config_path_multiarch')
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/pkg_config_path_multiarch.ps1'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/pkg_config_path_multiarch.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/pkg_config_path_multiarch.sh'
+[2.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Assem1)
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/reeshav/Assem1/install/Assem1' for CMake module files
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/reeshav/Assem1/install/Assem1' for CMake config files
+[2.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('Assem1', 'cmake_prefix_path')
+[2.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/cmake_prefix_path.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/cmake_prefix_path.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/reeshav/Assem1/install/Assem1/share/Assem1/hook/cmake_prefix_path.sh'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/reeshav/Assem1/install/Assem1/bin'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/reeshav/Assem1/install/Assem1/lib/pkgconfig/Assem1.pc'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/reeshav/Assem1/install/Assem1/lib/python3.10/site-packages'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/reeshav/Assem1/install/Assem1/bin'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/reeshav/Assem1/install/Assem1/share/Assem1/package.ps1'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/reeshav/Assem1/install/Assem1/share/Assem1/package.dsv'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/reeshav/Assem1/install/Assem1/share/Assem1/package.sh'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/reeshav/Assem1/install/Assem1/share/Assem1/package.bash'
+[2.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/reeshav/Assem1/install/Assem1/share/Assem1/package.zsh'
+[2.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/reeshav/Assem1/install/Assem1/share/colcon-core/packages/Assem1)
+[2.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.039s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.056s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.056s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.056s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.067s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/reeshav/Assem1/install/local_setup.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/reeshav/Assem1/install/_local_setup_util_ps1.py'
+[2.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/reeshav/Assem1/install/setup.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/reeshav/Assem1/install/local_setup.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/reeshav/Assem1/install/_local_setup_util_sh.py'
+[2.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/reeshav/Assem1/install/setup.sh'
+[2.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/reeshav/Assem1/install/local_setup.bash'
+[2.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/reeshav/Assem1/install/setup.bash'
+[2.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/reeshav/Assem1/install/local_setup.zsh'
+[2.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/reeshav/Assem1/install/setup.zsh'

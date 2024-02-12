@@ -1,0 +1,4 @@
+Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake --build /home/reeshav/Assem1/build/Assem1 -- -j10 -l10
+Invoking command in '/home/reeshav/Assem1/build/Assem1': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1
+Invoked command in '/home/reeshav/Assem1/build/Assem1' returned '0': /usr/bin/cmake --install /home/reeshav/Assem1/build/Assem1
